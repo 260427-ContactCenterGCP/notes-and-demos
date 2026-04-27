@@ -1,38 +1,38 @@
-\# Assignment 2: Deploy a Simple Spring Boot App on Compute Engine
+# Assignment 2: Deploy a Simple Spring Boot App on Compute Engine
 
 
 
-\## Objective
+## Objective
 
 Deploy a basic Spring Boot REST API on a Google Compute Engine VM that supports CRUD operations:
 
-\- GET
+- GET
 
-\- POST
+- POST
 
-\- PUT
+- PUT
 
-\- DELETE
-
-
-
-\---
+- DELETE
 
 
 
-\## Prerequisites
-
-\- GCP account set up (Assignment 1 completed)
-
-\- Basic Java + Spring Boot familiarity
+---
 
 
 
-\---
+## Prerequisites
+
+- GCP account set up (Assignment 1 completed)
+
+- Basic Java + Spring Boot familiarity
 
 
 
-\# 1. Create a Compute Engine VM
+---
+
+
+
+# 1. Create a Compute Engine VM
 
 
 
@@ -42,15 +42,15 @@ Go to Compute Engine → VM Instances → Create Instance
 
 Configuration:
 
-\- Name: springboot-vm
+- Name: springboot-vm
 
-\- Machine type: E2-small
+- Machine type: E2-small
 
-\- OS: Ubuntu
+- OS: Ubuntu
 
-\- Enable HTTP traffic
+- Enable HTTP traffic
 
-\- Enable HTTPS traffic
+- Enable HTTPS traffic
 
 
 
@@ -58,11 +58,11 @@ Click Create
 
 
 
-\---
+---
 
 
 
-\# 2. Connect to VM
+# 2. Connect to VM
 
 
 
@@ -70,11 +70,11 @@ Click SSH on your instance.
 
 
 
-\---
+---
 
 
 
-\# 3. Install Dependencies
+# 3. Install Dependencies
 
 
 
@@ -94,11 +94,11 @@ mvn -version
 
 
 
-\---
+---
 
 
 
-\# 4. Create Spring Boot App
+# 4. Create Spring Boot App
 
 
 
@@ -108,15 +108,15 @@ Using the (Spring Initializer)\[start.spring.io] build a simple app. The example
 
 Create REST endpoints:
 
-\- GET /items
+- GET /items
 
-\- GET /items/{id}
+- GET /items/{id}
 
-\- POST /items
+- POST /items
 
-\- PUT /items/{id}
+- PUT /items/{id}
 
-\- DELETE /items/{id}
+- DELETE /items/{id}
 
 
 
@@ -124,11 +124,11 @@ Use in-memory storage (List or Map).
 
 
 
-\---
+---
 
 
 
-\# 5. Run Application
+# 5. Run Application
 
 
 
@@ -142,11 +142,11 @@ http://localhost:8080
 
 
 
-\---
+---
 
 
 
-\# 6. Push application to github in your repository
+# 6. Push application to github in your repository
 
 
 
@@ -154,17 +154,17 @@ Add the simple project you've written to github in your personal repo in the org
 
 
 
-\# 7. Expose to Internet
+# 7. Expose to Internet
 
 
 
 Create firewall rule:
 
-\- allow-8080
+- allow-8080
 
-\- source: 0.0.0.0/0
+- source: 0.0.0.0/0
 
-\- allow all ports
+- allow all ports
 
 
 
@@ -180,11 +180,11 @@ http://<EXTERNAL\_IP>:8080
 
 
 
-\---
+---
 
 
 
-\# 8. Test API
+# 8. Test API
 
 
 
@@ -202,19 +202,19 @@ Example POST:
 
 {
 
-&#x20; "name": "Test Item",
+   "name": "Test Item",
 
-&#x20; "description": "Sample item"
+   "description": "Sample item"
 
 }
 
 
 
-\---
+---
 
 
 
-\# Bonus: Add Database instead of in-memory storage
+# Bonus: Add Database instead of in-memory storage
 
 
 
@@ -222,21 +222,21 @@ This can be done by spinning up a database directly within your instance or crea
 
 
 
-\---
+---
 
 
 
-\# Deliverables
+# Deliverables
 
-\- VM screenshot
+- VM screenshot
 
-\- App running screenshot
+- App running screenshot
+- 
+- Share link in a text file so we can access your application
 
-\- Share link in a text file so we can access your application
 
 
-
-\---
+---
 
 
 
