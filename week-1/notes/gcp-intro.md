@@ -1,4 +1,4 @@
-# GCP
+# Google Cloud Platform (GCP)
 
 ## What is Cloud Computing?
 
@@ -66,6 +66,10 @@ This design improves:
 - Disaster recovery planning
 
 Applications can be distributed across multiple zones to reduce the impact of infrastructure failure.
+
+- [Regions and Zones](https://cloud.google.com/compute/docs/regions-zones)
+- [View Available Regions and Zones](https://docs.cloud.google.com/compute/docs/regions-zones/viewing-regions-zones)
+
 
 ---
 
@@ -141,6 +145,9 @@ Google Cloud provides:
 
 Images help standardize and accelerate VM provisioning.
 
+- [Compute Engine Overview](https://docs.cloud.google.com/compute/docs/overview)
+
+
 ---
 
 # Block Storage
@@ -166,6 +173,9 @@ Persistent Disk is commonly used for:
 - Available as zonal or regional storage
 
 Because Persistent Disk is decoupled from the VM lifecycle, storage can remain intact even if the instance is stopped, deleted, or replaced.
+
+- [Block Storage Overview](https://cloud.google.com/products/block-storage?hl=en)
+- [Choosing a Disk Type](https://docs.cloud.google.com/compute/docs/disks)
 
 ---
 
@@ -212,6 +222,8 @@ MIGs integrate directly with Google Cloud Load Balancing, making them a common f
 - **Zonal MIGs** run instances in a single zone
 - **Regional MIGs** distribute instances across multiple zones for higher availability
 
+- [Managed Instance Groups](https://docs.cloud.google.com/compute/docs/instance-groups)
+
 ---
 
 # Firewall Rules
@@ -249,6 +261,7 @@ This makes firewall policy flexible and scalable across environments.
 
 Firewall rules are a foundational part of securing GCP workloads.
 
+- [VPC Firewall Rules](https://docs.cloud.google.com/firewall/docs/firewalls)
 ---
 
 # Cloud Storage
@@ -303,6 +316,8 @@ Cloud Storage buckets can be deployed in:
 
 This provides flexibility for performance, resilience, and compliance requirements.
 
+- [Cloud Storage Overview](https://docs.cloud.google.com/storage/docs/introduction)
+
 ---
 
 # Cloud SQL
@@ -356,3 +371,13 @@ Cloud SQL is commonly used for:
 - Business systems
 - Transactional applications
 - Managed relational workloads
+
+- [Cloud SQL Overview](https://docs.cloud.google.com/sql/docs/introduction)
+
+---
+
+### Cloud Deployment Manager
+
+Read the following information regarding leveraging the Cloud Deployment Manager through the Cloud Shell to deploy infrastructure as code.
+
+[Cloud Deployment Manager](https://www.geeksforgeeks.org/google-cloud-deployment-manager/)
