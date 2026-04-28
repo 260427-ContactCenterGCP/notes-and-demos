@@ -376,7 +376,7 @@ Cloud SQL is commonly used for:
 
 ---
 
-### Cloud Deployment Manager
+# Cloud Deployment Manager
 
 Read the following information regarding leveraging the Cloud Deployment Manager through the Cloud Shell to deploy infrastructure as code.
 

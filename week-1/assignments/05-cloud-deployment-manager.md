@@ -1,148 +1,111 @@
-\# Cloud Deployment Manager Assignment
+# Cloud Deployment Manager Assignment
 
 
 
-\## Overview
+## Overview
 
 
 
-In this assignment, you will use \*\*Google Cloud Deployment Manager\*\* to define and deploy infrastructure as code using a YAML configuration file. This exercise will help you understand how to automate resource provisioning in GCP.
+In this assignment, you will use **Google Cloud Deployment Manager** to define and deploy infrastructure as code using a YAML configuration file. This exercise will help you understand how to automate resource provisioning in GCP.
 
 
 
-\## Instructions
+## Instructions
 
 
 
-\### Step 1: Enable Deployment Manager API
+### Step 1: Enable Deployment Manager API
 
 
 
-\* Log in to the \[Google Cloud Console](https://console.cloud.google.com).
+* Log in to the [Google Cloud Console](https://console.cloud.google.com).
 
-\* Make sure you’ve selected or created a project.
+* Make sure you’ve selected or created a project.
 
-\* In the left-hand menu, go to \*\*APIs \& Services > Library\*\*.
+* In the left-hand menu, go to **APIs & Services > Library**.
 
-\* Search for \*\*Deployment Manager V2 API\*\* and enable it.
+* Search for **Deployment Manager V2 API** and enable it.
 
 
 
-\### Step 2: Open Cloud Shell and Create a Configuration File
+### Step 2: Open Cloud Shell and Create a Configuration File
 
 
 
-\* Open \*\*Cloud Shell\*\* from the top-right corner of the console.
+* Open **Cloud Shell** from the top-right corner of the console.
 
-\* Create a directory to hold your configuration files:
+* Create a directory to hold your configuration files:
 
 
 
-&#x20; ```bash
+    ```bash
 
-&#x20; mkdir gcp-deployment \&\& cd gcp-deployment
+    mkdir gcp-deployment && cd gcp-deployment
 
-&#x20; ```
+    ```
 
-\* Create a file named `vm-config.yaml` with the following content:
+* Create a file named `vm-config.yaml` with the following content:
 
 
 
-&#x20; ```yaml
+    ```yaml
+  resources:
+  - name: demo-vm
+    type: compute.v1.instance
+    properties:
+      zone: us-central1-a
+      machineType: zones/us-central1-a/machineTypes/e2-micro
+      disks:
+      - deviceName: boot
+        type: PERSISTENT
+        boot: true
+        autoDelete: true
+        initializeParams:
+          sourceImage: projects/debian-cloud/global/images/family/debian-11
+      networkInterfaces:
+      - network: global/networks/default
+        accessConfigs:
+        - name: External NAT
+          type: ONE_TO_ONE_NAT
+  ```
 
-&#x20; resources:
+### Step 3: Create the Deployment
 
-&#x20; - name: demo-vm
+* Run the following command to deploy the configuration:
 
-&#x20;   type: compute.v1.instance
+    ```bash
 
-&#x20;   properties:
+    gcloud deployment-manager deployments create demo-deployment --config vm-config.yaml
 
-&#x20;     zone: us-central1-a
+    ```
 
-&#x20;     machineType: zones/us-central1-a/machineTypes/e2-micro
+* Wait for the deployment to finish. Then go to **Compute Engine > VM instances** to confirm the instance was created.
 
-&#x20;     disks:
+### Step 4: Validate and Clean Up
 
-&#x20;     - deviceName: boot
+* Connect to the VM using SSH from the **Compute Engine** section.
 
-&#x20;       type: PERSISTENT
+* Run:
 
-&#x20;       boot: true
+    ```bash
 
-&#x20;       autoDelete: true
+    echo "Deployment successful!"
 
-&#x20;       initializeParams:
+    ```
 
-&#x20;         sourceImage: projects/debian-cloud/global/images/family/debian-11
+* To clean up (optional but recommended after the assignment):
 
-&#x20;     networkInterfaces:
+    ```bash
 
-&#x20;     - network: global/networks/default
+    gcloud deployment-manager deployments delete demo-deployment
 
-&#x20;       accessConfigs:
+    ```
 
-&#x20;       - name: External NAT
+## Requirements
 
-&#x20;         type: ONE\_TO\_ONE\_NAT
+* Deployment Manager must be used to create a VM named `demo-vm`.
 
-&#x20; ```
+* A valid YAML file (`vm-config.yaml`) must define the deployment.
 
-
-
-\### Step 3: Create the Deployment
-
-
-
-\* Run the following command to deploy the configuration:
-
-
-
-&#x20; ```bash
-
-&#x20; gcloud deployment-manager deployments create demo-deployment --config vm-config.yaml
-
-&#x20; ```
-
-\* Wait for the deployment to finish. Then go to \*\*Compute Engine > VM instances\*\* to confirm the instance was created.
-
-
-
-\### Step 4: Validate and Clean Up
-
-
-
-\* Connect to the VM using SSH from the \*\*Compute Engine\*\* section.
-
-\* Run:
-
-
-
-&#x20; ```bash
-
-&#x20; echo "Deployment successful!"
-
-&#x20; ```
-
-\* To clean up (optional but recommended after the assignment):
-
-
-
-&#x20; ```bash
-
-&#x20; gcloud deployment-manager deployments delete demo-deployment
-
-&#x20; ```
-
-
-
-\## Requirements
-
-
-
-\* Deployment Manager must be used to create a VM named `demo-vm`.
-
-\* A valid YAML file (`vm-config.yaml`) must define the deployment.
-
-\* VM should be visible in the Compute Engine console.
+* VM should be visible in the Compute Engine console.
 
