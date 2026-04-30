@@ -1,5 +1,5 @@
 # Portfolio Updates
-Portfolios are due by tomorrow 4/30, please complete the following updates to your skills summary and project experience sections
+Portfolios are due by tomorrow 4/30, please complete the following updates to your skills summary
 
 ## Skills Updates
 
@@ -21,7 +21,7 @@ We'll add two dedicated skills groups for this section: **GCP Services** and **G
     - Cloud Text-to-Speech
 
 
-## Project Experience
+## Project Experience (NO LONGER REQUIRED, PLEASE DO NOT ADD)
 
 - Project Description
     - The AI-Powered Contact Center project focused on designing, building, and deploying a cloud-native customer support solution using Google Cloud Platform and Google Customer Engagement Suite. The project involved developing intelligent conversational agents with Dialogflow CX to support both voice and chat interactions, integrating speech services through Cloud Speech-to-Text and Cloud Text-to-Speech, and deploying virtual agents within a scalable contact center architecture. The solution also incorporated Contact Center AI (CCAI) and Agent Assist to enhance live agent productivity through real-time recommendations, while Conversational Insights was used to analyze customer interactions, monitor quality, and generate performance insights. This project provided hands-on experience in conversational AI development, cloud deployment, systems integration, and enterprise contact center solution design.
