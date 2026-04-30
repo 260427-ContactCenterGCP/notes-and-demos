@@ -122,12 +122,12 @@ Rewrite the same text using SSML.
 
 Must include at least **3 SSML features**, such as:
 
-- <break>
-- <emphasis>
-- <prosody>
-- <say-as>
-- <p>
-- <s>
+- `<break>`
+- `<emphasis>`
+- `<prosody>`
+- `<say-as>`
+- `<p>`
+- `<s>`
 
 Goal: make it dramatic, theatrical, funny, or suspenseful.
 
