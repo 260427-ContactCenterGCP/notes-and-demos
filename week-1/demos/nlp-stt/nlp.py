@@ -1,23 +1,36 @@
-# Imports the Google Cloud client library.
+# Imports the Google Cloud client library
 from google.cloud import language_v1
-from pyasn1_modules.rfc7633 import Features
 
-# Instantiates a client.
+# Instantiates a client
 client = language_v1.LanguageServiceClient()
 
-# CHANGE ME
-text = "Hello, world!"
+def analyze_text(text):
+    document = language_v1.Document(
+        content=text,
+        type_=language_v1.Document.Type.PLAIN_TEXT,
+    )
 
-document = language_v1.types.Document(
-    content=text, type_=language_v1.types.Document.Type.PLAIN_TEXT
-)
+    # Sentiment Analysis
+    sentiment = client.analyze_sentiment(
+        request={"document": document}
+    ).document_sentiment
 
-# Detects the sentiment of the text.
-sentiment = client.analyze_sentiment(
-    request={"document": document}
-).document_sentiment
+    # Entity Detection
+    entities = client.analyze_entities(
+        request={"document": document}
+    ).entities
 
-# Add in details for checking the entities, classification, and moderation results
+    print("\n==============================")
+    print(f"Text: {text}")
+    print("------------------------------")
+    print(f"Sentiment Score: {sentiment.score}")
+    print(f"Magnitude: {sentiment.magnitude}")
 
-print(f"Text: {text}")
-print(f"Sentiment: {sentiment.score}, Magnitude: {sentiment.magnitude}")
+    print("\nEntities:")
+    for entity in entities:
+        print(f" - {entity.name} ({language_v1.Entity.Type(entity.type_).name})")
+
+# 🔹 TEST WITH 3 SAMPLES
+analyze_text("I absolutely love this phone but the battery is terrible.")
+analyze_text("This laptop is fast and lightweight, but the screen is disappointing.")
+analyze_text("Global markets rally after central bank announces rate cuts.")
