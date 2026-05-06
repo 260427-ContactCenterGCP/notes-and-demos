@@ -1,0 +1,26 @@
+[
+  {
+    "course_name": "Introduction to Computer Science",
+    "department": "Computer Science",
+    "description": "Fundamentals of programming and computational thinking.",
+    "level": "100"
+  },
+  {
+    "course_name": "Data Structures",
+    "department": "Computer Science",
+    "description": "Covers arrays, linked lists, trees, and graphs.",
+    "level": "200"
+  },
+  {
+    "course_name": "Artificial Intelligence Basics",
+    "department": "Computer Science",
+    "description": "Introduction to AI concepts and applications.",
+    "level": "300"
+  },
+  {
+    "course_name": "Linear Algebra",
+    "department": "Mathematics",
+    "description": "Matrix operations, vector spaces, and transformations.",
+    "level": "200"
+  }
+]
