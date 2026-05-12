@@ -1,0 +1,49 @@
+CS410 — Artificial Intelligence Fundamentals
+
+Course Name: Artificial Intelligence Fundamentals
+
+Course Number: CS410
+
+Credits: 4
+
+Department: Computer Science
+
+Professor: Dr. Rebecca Lin
+
+Semester Availability:
+Spring
+
+Course Description:
+This course introduces the foundational concepts of artificial intelligence and machine learning. Students explore neural networks, natural language processing, ethical concerns in AI systems, and practical applications of intelligent technologies.
+
+Topics Covered:
+
+machine learning
+neural networks
+NLP
+AI ethics
+
+Prerequisites:
+
+CS301 Algorithms
+STAT200 Introduction to Statistics
+
+Recommended Background:
+Strong programming skills and familiarity with probability and linear algebra.
+
+Difficulty Level:
+Advanced
+
+Estimated Weekly Workload:
+10–14 hours
+
+Student Feedback:
+Students find the material exciting and highly relevant to current technology trends. Many report that machine learning concepts require significant independent study and practice.
+
+Career Relevance:
+Supports careers in artificial intelligence, machine learning engineering, data science, and research.
+
+Related Courses:
+
+CS301 Algorithms
+STAT200 Introduction to Statistics

@@ -1,0 +1,46 @@
+MATH101 — College Algebra
+
+Course Name: College Algebra
+
+Course Number: MATH101
+
+Credits: 3
+
+Department: Mathematics
+
+Professor: Dr. Laura Bennett
+
+Semester Availability:
+Fall, Spring, Summer
+
+Course Description:
+This course covers algebraic concepts and mathematical reasoning needed for higher-level mathematics and technical disciplines. Students study equations, functions, and graphing techniques.
+
+Topics Covered:
+
+equations
+functions
+graphing
+
+Prerequisites:
+None
+
+Recommended Background:
+High school algebra.
+
+Difficulty Level:
+Beginner
+
+Estimated Weekly Workload:
+5–7 hours
+
+Student Feedback:
+Students appreciate the clear structure and step-by-step examples. Graphing functions is commonly identified as the most important skill learned.
+
+Career Relevance:
+Provides foundational mathematics knowledge required for STEM, business, and technical programs.
+
+Related Courses:
+
+MATH210 Discrete Mathematics
+STAT200 Introduction to Statistics

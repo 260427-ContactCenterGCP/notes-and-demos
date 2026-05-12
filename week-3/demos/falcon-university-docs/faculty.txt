@@ -1,0 +1,63 @@
+Faculty Directory
+
+Dr. Sarah Chen
+Department: Computer Science
+Specialization: Introductory Programming and Software Engineering
+Office Hours: Monday and Wednesday 2PM-4PM
+
+Dr. Michael Patel
+Department: Mathematics
+Specialization: Discrete Mathematics and Statistics
+
+Dr. Emily Rivera
+Department: Artificial Intelligence
+Specialization: Machine Learning and NLP
+
+Professor James Holloway
+Department: English
+Specialization: Academic Writing and Research
+
+Dr. Michael Rivera
+Department: Computer Science
+Specialization: Data Structures and Algorithms
+Office Hours: Tuesday and Thursday 1PM-3PM
+
+Dr. Priya Natarajan
+Department: Computer Science
+Specialization: Algorithms and Computational Theory
+Office Hours: Monday 10AM-12PM
+
+Dr. Emily Foster
+Department: Computer Science
+Specialization: Database Systems and Data Management
+Office Hours: Wednesday 11AM-1PM
+
+Dr. Anthony Walker
+Department: Computer Science
+Specialization: Web Development and Backend Services
+Office Hours: Friday 2PM-5PM
+
+Dr. Rebecca Lin
+Department: Artificial Intelligence
+Specialization: Machine Learning, Neural Networks, and AI Ethics
+Office Hours: Tuesday 3PM-5PM
+
+Dr. Laura Bennett
+Department: Mathematics
+Specialization: College Algebra and Applied Mathematics
+Office Hours: Monday and Thursday 9AM-11AM
+
+Dr. Kevin Marshall
+Department: Mathematics
+Specialization: Logic, Graph Theory, and Discrete Mathematics
+Office Hours: Wednesday 1PM-4PM
+
+Dr. Natalie Brooks
+Department: Statistics
+Specialization: Probability, Regression, and Statistical Analysis
+Office Hours: Tuesday and Thursday 10AM-12PM
+
+Dr. Amanda Hughes
+Department: English
+Specialization: Academic Writing, Research Methods, and Presentations
+Office Hours: Friday 9AM-12PM

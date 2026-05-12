@@ -1,0 +1,49 @@
+CS301 — Algorithms
+
+Course Name: Algorithms
+
+Course Number: CS301
+
+Credits: 4
+
+Department: Computer Science
+
+Professor: Dr. Priya Natarajan
+
+Semester Availability:
+Fall
+
+Course Description:
+This course focuses on the design, analysis, and optimization of algorithms. Students study algorithm efficiency, recursion techniques, sorting and searching algorithms, and introductory dynamic programming concepts.
+
+Topics Covered:
+
+sorting
+searching
+recursion
+dynamic programming
+
+Prerequisites:
+
+CS201 Data Structures
+MATH210 Discrete Mathematics
+
+Recommended Background:
+Strong programming skills and familiarity with mathematical logic.
+
+Difficulty Level:
+Advanced
+
+Estimated Weekly Workload:
+10–12 hours
+
+Student Feedback:
+Students describe this course as mathematically intensive and demanding. Many recommend practicing coding problems regularly outside of class. Dynamic programming is often considered the toughest topic.
+
+Career Relevance:
+Essential preparation for technical interviews, software engineering roles, machine learning, and advanced computer science coursework.
+
+Related Courses:
+
+CS410 Artificial Intelligence Fundamentals
+MATH210 Discrete Mathematics

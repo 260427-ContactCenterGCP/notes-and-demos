@@ -1,0 +1,47 @@
+CS350 — Web Application Development
+
+Course Name: Web Application Development
+
+Course Number: CS350
+
+Credits: 4
+
+Department: Computer Science
+
+Professor: Dr. Anthony Walker
+
+Semester Availability:
+Fall, Spring
+
+Course Description:
+This course teaches students how to build dynamic web applications using modern frontend and backend technologies. Students create responsive interfaces, work with REST APIs, and develop backend services.
+
+Topics Covered:
+
+HTML/CSS
+JavaScript
+REST APIs
+backend services
+
+Prerequisites:
+CS101 Introduction to Programming
+
+Recommended Background:
+Basic programming experience and familiarity with internet technologies.
+
+Difficulty Level:
+Intermediate
+
+Estimated Weekly Workload:
+8–11 hours
+
+Student Feedback:
+Students enjoy the project-based structure of the course and appreciate building portfolio-ready applications. Debugging frontend and backend integration issues can be time-consuming.
+
+Career Relevance:
+Prepares students for careers in frontend, backend, and full-stack software development.
+
+Related Courses:
+
+CS220 Database Systems
+CS410 Artificial Intelligence Fundamentals

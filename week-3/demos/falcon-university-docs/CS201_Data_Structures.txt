@@ -1,0 +1,48 @@
+CS201 — Data Structures
+
+Course Name: Data Structures
+
+Course Number: CS201
+
+Credits: 4
+
+Department: Computer Science
+
+Professor: Dr. Michael Rivera
+
+Semester Availability:
+Fall, Spring
+
+Course Description:
+This course explores fundamental data structures used in software development and computer science. Students learn how to organize, store, and manipulate data efficiently using linked lists, stacks, queues, trees, and graphs. Programming assignments emphasize problem-solving and algorithmic thinking.
+
+Topics Covered:
+
+linked lists
+stacks
+queues
+trees
+graphs
+
+Prerequisites:
+CS101 Introduction to Programming
+
+Recommended Background:
+Comfortable writing programs using functions, loops, and arrays.
+
+Difficulty Level:
+Intermediate
+
+Estimated Weekly Workload:
+8–10 hours
+
+Student Feedback:
+Students often find this course challenging but rewarding. Many appreciate the hands-on coding assignments and real-world applications of data structures. Trees and graph traversal algorithms are commonly described as the most difficult topics.
+
+Career Relevance:
+Provides core knowledge required for software engineering, backend development, game development, and technical interviews.
+
+Related Courses:
+
+CS301 Algorithms
+CS350 Web Application Development

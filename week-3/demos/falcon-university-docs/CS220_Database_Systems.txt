@@ -1,0 +1,47 @@
+CS220 — Database Systems
+
+Course Name: Database Systems
+
+Course Number: CS220
+
+Credits: 3
+
+Department: Computer Science
+
+Professor: Dr. Emily Foster
+
+Semester Availability:
+Spring, Summer
+
+Course Description:
+This course introduces relational database concepts and database management systems. Students learn SQL, database normalization, transaction management, and relational modeling through practical projects and labs.
+
+Topics Covered:
+
+SQL
+normalization
+relational databases
+transactions
+
+Prerequisites:
+CS101 Introduction to Programming
+
+Recommended Background:
+Basic programming knowledge and familiarity with spreadsheets or data organization.
+
+Difficulty Level:
+Intermediate
+
+Estimated Weekly Workload:
+7–9 hours
+
+Student Feedback:
+Students enjoy the practical nature of the course and appreciate learning SQL skills that are directly applicable in industry. Normalization concepts can initially be confusing for beginners.
+
+Career Relevance:
+Important for careers in software engineering, data analytics, cloud computing, and backend development.
+
+Related Courses:
+
+CS350 Web Application Development
+STAT200 Introduction to Statistics

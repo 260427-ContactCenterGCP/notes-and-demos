@@ -1,0 +1,47 @@
+STAT200 — Introduction to Statistics
+
+Course Name: Introduction to Statistics
+
+Course Number: STAT200
+
+Credits: 3
+
+Department: Statistics
+
+Professor: Dr. Natalie Brooks
+
+Semester Availability:
+Fall, Spring, Summer
+
+Course Description:
+This course introduces statistical reasoning and data analysis techniques. Students learn probability concepts, statistical distributions, regression analysis, and hypothesis testing methods.
+
+Topics Covered:
+
+probability
+distributions
+regression
+hypothesis testing
+
+Prerequisites:
+MATH101 College Algebra
+
+Recommended Background:
+Basic algebra skills.
+
+Difficulty Level:
+Intermediate
+
+Estimated Weekly Workload:
+6–8 hours
+
+Student Feedback:
+Students value the practical applications of statistics and data interpretation. Hypothesis testing is frequently described as the most challenging topic.
+
+Career Relevance:
+Useful for careers in data science, research, business analytics, healthcare, and artificial intelligence.
+
+Related Courses:
+
+CS410 Artificial Intelligence Fundamentals
+MATH210 Discrete Mathematics

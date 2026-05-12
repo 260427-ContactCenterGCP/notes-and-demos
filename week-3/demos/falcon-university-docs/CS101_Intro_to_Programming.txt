@@ -1,0 +1,42 @@
+Course Name: Introduction to Programming
+
+Course Number: CS101
+
+Credits: 3
+
+Department: Computer Science
+
+Professor: Dr. Sarah Chen
+
+Semester Availability:
+Fall, Spring, Summer
+
+Course Description:
+This course introduces students to programming fundamentals using Python.
+Topics include variables, loops, functions, conditionals, data structures,
+and debugging techniques.
+
+Prerequisites:
+None
+
+Recommended Background:
+Basic computer literacy.
+
+Difficulty Level:
+Beginner
+
+Estimated Weekly Workload:
+6-8 hours
+
+Student Feedback:
+Students describe this course as approachable and beginner friendly.
+Many students appreciate the hands-on labs and coding assignments.
+Some students recommend spending additional time practicing loops and functions.
+
+Career Relevance:
+Provides foundational programming knowledge required for software development,
+data analytics, cybersecurity, and artificial intelligence pathways.
+
+Related Courses:
+CS201 Data Structures
+CS220 Database Systems

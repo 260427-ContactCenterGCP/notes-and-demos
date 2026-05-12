@@ -1,0 +1,47 @@
+MATH210 — Discrete Mathematics
+
+Course Name: Discrete Mathematics
+
+Course Number: MATH210
+
+Credits: 3
+
+Department: Mathematics
+
+Professor: Dr. Kevin Marshall
+
+Semester Availability:
+Fall, Spring
+
+Course Description:
+This course introduces mathematical structures commonly used in computer science. Students study logic, proofs, sets, and graph theory with an emphasis on problem-solving and analytical reasoning.
+
+Topics Covered:
+
+logic
+proofs
+sets
+graph theory
+
+Prerequisites:
+MATH101 College Algebra
+
+Recommended Background:
+Recommended for Computer Science majors.
+
+Difficulty Level:
+Intermediate
+
+Estimated Weekly Workload:
+7–9 hours
+
+Student Feedback:
+Students often find proof-writing difficult at first but rewarding after practice. Many say the course improves their logical thinking and programming skills.
+
+Career Relevance:
+Essential preparation for algorithms, cybersecurity, software engineering, and theoretical computer science.
+
+Related Courses:
+
+CS301 Algorithms
+CS201 Data Structures

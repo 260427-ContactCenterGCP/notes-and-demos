@@ -1,0 +1,19 @@
+Falcon University Academic Calendar
+
+Fall Semester:
+Classes Begin: August 25
+Add/Drop Deadline: September 2
+Midterms: October 10-14
+Withdrawal Deadline: November 1
+Final Exams: December 8-15
+
+Spring Semester:
+Classes Begin: January 12
+Add/Drop Deadline: January 20
+Midterms: March 3-7
+Withdrawal Deadline: April 1
+Final Exams: May 5-12
+
+Summer Semester:
+Classes Begin: May 20
+Final Exams: July 28-30
